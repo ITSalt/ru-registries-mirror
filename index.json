@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-09-16T13:56:12+00:00",
+  "generator": "ITSalt/ru-registries-mirror",
+  "registries": {
+    "fsb_terrorist_orgs": {
+      "entries_sha256": "2c6470755f682a8bade83231a06f1094a29557566de57be8d8cfa22609cb7ca3",
+      "entry_count": 77,
+      "fetched_at": "2026-09-16T13:56:19+00:00",
+      "file": "data/fsb_terrorist_orgs.json",
+      "freshness_window_days": 45,
+      "source_sha256": "59d04600077b34cd4d74ad1b9c79fbf960307085159bbc478bb14cc594e43529",
+      "source_url": "http://www.fsb.ru/fsb/npd/terror.htm",
+      "status": "ok",
+      "title": "Единый федеральный список террористических организаций"
+    },
+    "minjust_extremist_materials": {
+      "entries_sha256": "d1f82f51819d1eb432607b9a6f77a8edcff1393eea3ffd371dc83c4bb24d821c",
+      "entry_count": 5481,
+      "fetched_at": "2026-09-16T13:56:14+00:00",
+      "file": "data/minjust_extremist_materials.json",
+      "freshness_window_days": 30,
+      "source_sha256": "d9685155dc68c555f057bb9678076a966c1b80328d7939087dc6ff495c3a900f",
+      "source_url": "https://minjust.gov.ru/uploaded/files/exportfsm.csv",
+      "status": "ok",
+      "title": "Федеральный список экстремистских материалов"
+    },
+    "minjust_extremist_orgs": {
+      "entries_sha256": "c6878185af64bb8cf9f13686b88c6c8fab9f9f57ed3d95b85e018a62ac05a943",
+      "entry_count": 152,
+      "fetched_at": "2026-09-16T13:56:17+00:00",
+      "file": "data/minjust_extremist_orgs.json",
+      "freshness_window_days": 45,
+      "source_sha256": "f825e51ca0ce6c0732cf92b4fa42a93ee45e0f8d64781595f87f0a089bab6cea",
+      "source_url": "https://minjust.gov.ru/ru/documents/7822/",
+      "status": "ok",
+      "title": "Перечень организаций, признанных экстремистскими"
+    },
+    "minjust_foreign_agents": {
+      "last_attempt_at": "2026-09-16T13:56:12+00:00",
+      "last_error": "https://reestrs.minjust.gov.ru/rest/registry/39b95df9-9a68-6b6d-e1e3-e: HTTPError: HTTP Error 503: Service Unavailable",
+      "status": "failed"
+    },
+    "minjust_undesirable_orgs": {
+      "last_attempt_at": "2026-09-16T13:56:12+00:00",
+      "last_error": "https://reestrs.minjust.gov.ru/rest/registry/c2d1692e-a9f6-5a79-13ee-5: HTTPError: HTTP Error 503: Service Unavailable",
+      "status": "failed"
+    }
+  },
+  "schema_version": 1
+}

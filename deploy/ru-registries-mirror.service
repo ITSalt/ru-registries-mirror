@@ -1,0 +1,21 @@
+[Unit]
+Description=Снятие и публикация государственных реестров РФ
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=mirror
+WorkingDirectory=/home/mirror/ru-registries-mirror
+Environment=MIRROR_DIR=/home/mirror/ru-registries-mirror
+Environment=SKILL_DIR=/home/mirror/PepperSkills/pepper-ru-web-compliance/anthropic
+Environment=PYTHON=/home/mirror/ru-registries-mirror/.venv/bin/python
+ExecStart=/home/mirror/ru-registries-mirror/deploy/update.sh
+TimeoutStartSec=1800
+
+# Ведомственные выгрузки бывают медленными и отдают 503 — одна неудача не повод
+# считать зеркало сломанным, но и молчать о ней нельзя (см. exit code).
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
