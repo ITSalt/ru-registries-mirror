@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Снимает реестры и публикует изменения. Запускается по таймеру на машине
+# Снимает реестры и публикует изменения. Запускается по расписанию на машине
 # с российским выходом в сеть.
 #
 # Git вынесен сюда, а не в update.py, намеренно: скрипт съёма не должен уметь
@@ -7,17 +7,23 @@
 set -euo pipefail
 
 MIRROR_DIR="${MIRROR_DIR:-$HOME/ru-registries-mirror}"
-SKILL_DIR="${SKILL_DIR:-$HOME/PepperSkills/pepper-ru-web-compliance/anthropic}"
-PYTHON="${PYTHON:-$MIRROR_DIR/.venv/bin/python}"
+SKILL_DIR="${SKILL_DIR:-$HOME/skill-src/anthropic}"
+PYTHON="${PYTHON:-python3}"
+LOG="${LOG:-$HOME/mirror-update.log}"
+
+exec >>"$LOG" 2>&1
+echo "=== $(date -Is) ==="
 
 cd "$MIRROR_DIR"
 
-# Скилл — источник парсеров. Держим его в актуальном состоянии, иначе зеркало
-# будет разбирать выгрузки старой логикой.
-git -C "$(dirname "$(dirname "$SKILL_DIR")")" pull --ff-only --quiet || \
-  echo "предупреждение: не удалось обновить скилл, используется текущая версия" >&2
+# Скилл — источник парсеров. Если он выложен git-репозиторием, держим в
+# актуальном состоянии; если это просто каталог с файлами, работаем как есть.
+SKILL_ROOT="$(cd "$SKILL_DIR/.." && pwd)"
+if git -C "$SKILL_ROOT" rev-parse --git-dir >/dev/null 2>&1; then
+  git -C "$SKILL_ROOT" pull --ff-only --quiet || echo "предупреждение: скилл не обновился"
+fi
 
-git pull --ff-only --quiet
+git pull --ff-only --quiet || echo "предупреждение: git pull зеркала не прошёл"
 
 set +e
 "$PYTHON" update.py --skill-path "$SKILL_DIR"
@@ -27,13 +33,11 @@ set -e
 if [[ -n "$(git status --porcelain data index.json)" ]]; then
   git add data index.json
   git commit -q -m "data: обновление реестров $(date -u +%Y-%m-%d)"
-  git push -q
-  echo "опубликовано"
+  git push -q && echo "опубликовано"
 else
   echo "изменений нет, коммит не нужен"
 fi
 
-# Ненулевой код означает, что часть реестров снять не удалось. Таймер это
-# покажет в systemctl status — молча терять такое нельзя: устаревающее зеркало
-# внешне неотличимо от работающего.
+# Ненулевой код означает, что часть реестров снять не удалось. Терять это молча
+# нельзя: устаревающее зеркало внешне неотличимо от работающего.
 exit $STATUS

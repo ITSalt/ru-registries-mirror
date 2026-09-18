@@ -9,7 +9,7 @@ User=mirror
 WorkingDirectory=/home/mirror/ru-registries-mirror
 Environment=MIRROR_DIR=/home/mirror/ru-registries-mirror
 Environment=SKILL_DIR=/home/mirror/PepperSkills/pepper-ru-web-compliance/anthropic
-Environment=PYTHON=/home/mirror/ru-registries-mirror/.venv/bin/python
+Environment=PYTHON=/usr/bin/python3
 ExecStart=/home/mirror/ru-registries-mirror/deploy/update.sh
 TimeoutStartSec=1800
 
