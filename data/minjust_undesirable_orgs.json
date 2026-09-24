@@ -1,13 +1,13 @@
 {
-  "entries_sha256": "335f5c80c70b329cdc2e70499e634641ed2dc3742024491de3fc7fda72a274e7",
-  "entry_count": 415,
-  "fetched_at": "2026-09-17T07:16:06+00:00",
+  "entries_sha256": "e6f03dc30609a05afed296d4bf51d4f732b82bc91f7b448ce3521258f610198f",
+  "entry_count": 418,
+  "fetched_at": "2026-09-24T01:18:06+00:00",
   "freshness_window_days": 30,
   "generator": "ITSalt/ru-registries-mirror",
   "registry": "minjust_undesirable_orgs",
   "schema_version": 1,
-  "source_bytes": 45510,
-  "source_sha256": "4ecf183aef6df96cc3e0412b824305a1e99b70c09980dcc9be0c2cffb87620f5",
+  "source_bytes": 45839,
+  "source_sha256": "f56a7a8ab497fc7565f26fd6440735dc18500b382f9b0ba30514a0c8a3581ab1",
   "source_trust": "official",
   "source_url": "https://reestrs.minjust.gov.ru/rest/registry/c2d1692e-a9f6-5a79-13ee-5da5b42980df/export?",
   "title": "Перечень нежелательных организаций",
@@ -426,6 +426,9 @@
     {"aliases": ["Смольный без границ", "Smolny Beyond Borders"], "decision": null, "excluded_at": null, "id": "row-412", "included_at": "11.09.2026", "inn": null, "kind": "org", "name": "Smolny Beyond Borders (SBB, «Смольный без границ»), Федеративная Республика Германия", "ogrn": null, "raw": {}},
     {"aliases": ["Совет по международным исследованиям и обменам", "International Research", "Exchanges Board"], "decision": null, "excluded_at": null, "id": "row-413", "included_at": "11.09.2026", "inn": null, "kind": "org", "name": "International Research & Exchanges Board, Inc. (IREX, «Совет по международным исследованиям и обменам»), Соединенные Штаты Америки", "ogrn": null, "raw": {}},
     {"aliases": ["Фонд за демократию и либеральные ценности", "Liberal Values"], "decision": null, "excluded_at": null, "id": "row-414", "included_at": "11.09.2026", "inn": null, "kind": "org", "name": "Foundation for Democracy and Liberal Values (FDLV, «Фонд за демократию и либеральные ценности»), Соединенные Штаты Америки", "ogrn": null, "raw": {}},
-    {"aliases": ["Квартира"], "decision": null, "excluded_at": null, "id": "row-415", "included_at": "11.09.2026", "inn": null, "kind": "org", "name": "Quarteera e.V. («Квартира»), Федеративная Республика Германия", "ogrn": null, "raw": {}}
+    {"aliases": ["Квартира"], "decision": null, "excluded_at": null, "id": "row-415", "included_at": "11.09.2026", "inn": null, "kind": "org", "name": "Quarteera e.V. («Квартира»), Федеративная Республика Германия", "ogrn": null, "raw": {}},
+    {"aliases": ["Друзья Фалуньгун Европа", "Falun Gong Europe"], "decision": null, "excluded_at": null, "id": "row-416", "included_at": "22.09.2026", "inn": null, "kind": "org", "name": "Friends of Falun Gong Europe (Falun, «Друзья Фалуньгун Европа»), Соединенное Королевство Великобритании и Северной Ирландии", "ogrn": null, "raw": {}},
+    {"aliases": ["Альменда"], "decision": null, "excluded_at": null, "id": "row-417", "included_at": "22.09.2026", "inn": null, "kind": "org", "name": "«Центр гражданского просвещения «Альменда» (Центр громадянської просвіти «Альменда», ЦГП «Альменда»), Украина", "ogrn": null, "raw": {}},
+    {"aliases": ["Фонд поддержки этнических немцев за рубежом", "Stiftung Verbundenheit"], "decision": null, "excluded_at": null, "id": "row-418", "included_at": "22.09.2026", "inn": null, "kind": "org", "name": "Stiftung Verbundenheit mit den Deutschen im Ausland («Фонд поддержки этнических немцев за рубежом»), Федеративная Республика Германия", "ogrn": null, "raw": {}}
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23T01:17:03+00:00",
+  "generated_at": "2026-09-24T01:17:02+00:00",
   "generator": "ITSalt/ru-registries-mirror",
   "registries": {
     "fsb_terrorist_orgs": {
       "entries_sha256": "d989ea9cb5b49b2f5451360ce2885f8e3f3d609ee1ba379597197bc5feb7cc40",
       "entry_count": 77,
-      "fetched_at": "2026-09-23T01:17:06+00:00",
+      "fetched_at": "2026-09-24T01:18:05+00:00",
       "file": "data/fsb_terrorist_orgs.json",
       "freshness_window_days": 45,
       "source_sha256": "59d04600077b34cd4d74ad1b9c79fbf960307085159bbc478bb14cc594e43529",
@@ -16,7 +16,7 @@
     "minjust_extremist_materials": {
       "entries_sha256": "553a5beac52e174b8a294fa5da24f388f383843d6d986e29956e7f8f65405cf2",
       "entry_count": 5481,
-      "fetched_at": "2026-09-23T01:17:04+00:00",
+      "fetched_at": "2026-09-24T01:17:03+00:00",
       "file": "data/minjust_extremist_materials.json",
       "freshness_window_days": 30,
       "source_sha256": "d9685155dc68c555f057bb9678076a966c1b80328d7939087dc6ff495c3a900f",
@@ -30,29 +30,31 @@
       "fetched_at": "2026-09-23T01:17:05+00:00",
       "file": "data/minjust_extremist_orgs.json",
       "freshness_window_days": 45,
+      "last_attempt_at": "2026-09-24T01:17:02+00:00",
+      "last_error": "https://minjust.gov.ru/ru/documents/7822/: URLError: <urlopen error _ssl.c:990: The handshake operation timed out>",
       "source_sha256": "7814f8336fa63a4210485f36e2c1501ddcd941e9f2b22f5c4aedaeb5ed5d3ee6",
       "source_url": "https://minjust.gov.ru/ru/documents/7822/",
-      "status": "ok",
+      "status": "failed",
       "title": "Перечень организаций, признанных экстремистскими"
     },
     "minjust_foreign_agents": {
       "entries_sha256": "01035a7b1bf16945ae8a90b7323b2cb1ab4fd1c122abc80f2cdc55807a4b9b9c",
       "entry_count": 1267,
-      "fetched_at": "2026-09-23T01:17:07+00:00",
+      "fetched_at": "2026-09-24T01:18:05+00:00",
       "file": "data/minjust_foreign_agents.json",
       "freshness_window_days": 10,
-      "source_sha256": "a9606cb939c2ad92ca3dda361be771fad31067f897edc4dfb037a6a496d45b07",
+      "source_sha256": "19f80067d32a4669b0db1eb85823fc782e0feebe48db4e42751b9998c42ef4c2",
       "source_url": "https://reestrs.minjust.gov.ru/rest/registry/39b95df9-9a68-6b6d-e1e3-e6388507067e/export?",
       "status": "ok",
       "title": "Реестр иностранных агентов"
     },
     "minjust_undesirable_orgs": {
-      "entries_sha256": "335f5c80c70b329cdc2e70499e634641ed2dc3742024491de3fc7fda72a274e7",
-      "entry_count": 415,
-      "fetched_at": "2026-09-23T01:17:07+00:00",
+      "entries_sha256": "e6f03dc30609a05afed296d4bf51d4f732b82bc91f7b448ce3521258f610198f",
+      "entry_count": 418,
+      "fetched_at": "2026-09-24T01:18:06+00:00",
       "file": "data/minjust_undesirable_orgs.json",
       "freshness_window_days": 30,
-      "source_sha256": "131fd9f2bda7f757d2adcc14b49300da4d23d192fad230d53a8fbaad07a7916f",
+      "source_sha256": "f56a7a8ab497fc7565f26fd6440735dc18500b382f9b0ba30514a0c8a3581ab1",
       "source_url": "https://reestrs.minjust.gov.ru/rest/registry/c2d1692e-a9f6-5a79-13ee-5da5b42980df/export?",
       "status": "ok",
       "title": "Перечень нежелательных организаций"
