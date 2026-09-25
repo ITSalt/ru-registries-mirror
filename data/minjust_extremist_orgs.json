@@ -1,13 +1,13 @@
 {
-  "entries_sha256": "ead829127a0e91aa4a30f9ad3d5be566d53a109ee1c5bd295a8c31ea9ecdf361",
-  "entry_count": 153,
-  "fetched_at": "2026-09-19T01:17:05+00:00",
+  "entries_sha256": "37bed49403c64435d9bdcb28ce59e14618394eb223791a15fc2e7afcd380657e",
+  "entry_count": 154,
+  "fetched_at": "2026-09-25T01:17:04+00:00",
   "freshness_window_days": 45,
   "generator": "ITSalt/ru-registries-mirror",
   "registry": "minjust_extremist_orgs",
   "schema_version": 1,
-  "source_bytes": 206614,
-  "source_sha256": "7814f8336fa63a4210485f36e2c1501ddcd941e9f2b22f5c4aedaeb5ed5d3ee6",
+  "source_bytes": 207103,
+  "source_sha256": "d77e7b097a6ce0273a663bb2f12e5058853b23ed992d836f73bcd20e1d960a63",
   "source_trust": "official",
   "source_url": "https://minjust.gov.ru/ru/documents/7822/",
   "title": "Перечень организаций, признанных экстремистскими",
@@ -164,6 +164,7 @@
     {"aliases": [], "decision": null, "excluded_at": null, "id": "ext-org-151", "included_at": null, "inn": null, "kind": "org", "name": "Московский комьюнити-центр для ЛГБТ-инициатив/Московский комьюнити-центр для ЛГБТ (решение Московского городского суда от 23.04.2026) (дата размещения сведений: 04.09.2026);", "ogrn": null, "raw": {}},
     {"aliases": ["Киберпартизаны BY", "Кибер-Партизаны"], "decision": null, "excluded_at": null, "id": "ext-org-152", "included_at": null, "inn": null, "kind": "org", "name": "Объединение – хакерская группировка «Киберпартизаны BY» (другие используемые наименования – «Кибер-Партизаны», Cyberpartizans) (решение Верховного Суда Российской Федерации от 21.07.2026) (дата размещения сведений: 10.09.2026);", "ogrn": null, "raw": {}},
     {"aliases": ["Молчаливый ворон", "Silent Crow"], "decision": null, "excluded_at": null, "id": "ext-org-153", "included_at": null, "inn": null, "kind": "org", "name": "Объединение – хакерская группировка Silent Crow («Молчаливый ворон») (решение Верховного Суда Российской Федерации от 21.07.2026) (дата размещения сведений: 10.09.2026);", "ogrn": null, "raw": {}},
-    {"aliases": ["Алмаз Кэпитал Партнерс, ЛТД", "Almaz Capital Partners"], "decision": null, "excluded_at": null, "id": "ext-org-154", "included_at": null, "inn": null, "kind": "org", "name": "Объединение, членами которого являются Галицкий Александр Владимирович, родившийся 9 февраля 1955 года в д. Заречаны Житомирской области Украины, и корпорация «Алмаз Кэпитал Партнерс, ЛТД» (Almaz Capital Partners, LTD, регистрационный номер – 163790) (решение Тверского районного суда г. Москвы от 23.03.2026) (дата размещения сведений: 18.09.2026);", "ogrn": null, "raw": {}}
+    {"aliases": ["Алмаз Кэпитал Партнерс, ЛТД", "Almaz Capital Partners"], "decision": null, "excluded_at": null, "id": "ext-org-154", "included_at": null, "inn": null, "kind": "org", "name": "Объединение, членами которого являются Галицкий Александр Владимирович, родившийся 9 февраля 1955 года в д. Заречаны Житомирской области Украины, и корпорация «Алмаз Кэпитал Партнерс, ЛТД» (Almaz Capital Partners, LTD, регистрационный номер – 163790) (решение Тверского районного суда г. Москвы от 23.03.2026) (дата размещения сведений: 18.09.2026);", "ogrn": null, "raw": {}},
+    {"aliases": ["Ирида"], "decision": null, "excluded_at": null, "id": "ext-org-155", "included_at": null, "inn": null, "kind": "org", "name": "Самарская общественная организация ЛГБТ + «Ирида» (решение Промышленного районного суда г. Самары от 24.04.2026 и апелляционное определение судебной коллегии по административным делам Самарского областного суда от 04.08.2026) (дата размещения сведений: 24.09.2026);", "ogrn": null, "raw": {}}
   ]
 }
