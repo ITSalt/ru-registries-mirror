@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-12T01:17:02+00:00",
+  "generated_at": "2026-10-13T01:17:03+00:00",
   "generator": "ITSalt/ru-registries-mirror",
   "registries": {
     "fsb_terrorist_orgs": {
       "entries_sha256": "d989ea9cb5b49b2f5451360ce2885f8e3f3d609ee1ba379597197bc5feb7cc40",
       "entry_count": 77,
-      "fetched_at": "2026-10-12T01:17:05+00:00",
+      "fetched_at": "2026-10-13T01:17:05+00:00",
       "file": "data/fsb_terrorist_orgs.json",
       "freshness_window_days": 45,
       "source_sha256": "1a6c49c47e639a268fa5e5e0f0f2e06a06311fd03bdcf2998a74ba82b5970fde",
@@ -16,7 +16,7 @@
     "minjust_extremist_materials": {
       "entries_sha256": "b928a7376fa97732a944c717cee31cf524a9c6c498c39db301301cf679bc1570",
       "entry_count": 5487,
-      "fetched_at": "2026-10-12T01:17:03+00:00",
+      "fetched_at": "2026-10-13T01:17:04+00:00",
       "file": "data/minjust_extremist_materials.json",
       "freshness_window_days": 30,
       "source_sha256": "978dd8b9f16632d5c821389c9f27fbefb707c509a319bcd7093e4e8cf57847de",
@@ -27,7 +27,7 @@
     "minjust_extremist_orgs": {
       "entries_sha256": "5e41f4b5647f4203b336ed5e7ada961ed01c5e68d3064686a9700e4606228821",
       "entry_count": 154,
-      "fetched_at": "2026-10-12T01:17:04+00:00",
+      "fetched_at": "2026-10-13T01:17:05+00:00",
       "file": "data/minjust_extremist_orgs.json",
       "freshness_window_days": 45,
       "source_sha256": "af42239e7895561b15b4280aa4ca160499d3604998155bca1dfd2cc7b3b0b4c1",
@@ -38,21 +38,21 @@
     "minjust_foreign_agents": {
       "entries_sha256": "409c28109b5d4df2fbbf659c1f867c5ac5cab9571c3cb95acb504a9d163b9259",
       "entry_count": 1279,
-      "fetched_at": "2026-10-12T01:17:06+00:00",
+      "fetched_at": "2026-10-13T01:17:06+00:00",
       "file": "data/minjust_foreign_agents.json",
       "freshness_window_days": 10,
-      "source_sha256": "a97eee0d0fd811d513b6dc7b1d69b129db4abf99217d4c81bf2413abddc2d5fb",
+      "source_sha256": "e2cd792001915ea19269204125e3aaf40ef88caa0f388e29b0080e6c3377b1f0",
       "source_url": "https://reestrs.minjust.gov.ru/rest/registry/39b95df9-9a68-6b6d-e1e3-e6388507067e/export?",
       "status": "ok",
       "title": "Реестр иностранных агентов"
     },
     "minjust_undesirable_orgs": {
-      "entries_sha256": "d3150ee7c53e6accb7f11ef6397c2539b9c2f8bba0bcfc25cf532321adf415f4",
-      "entry_count": 419,
-      "fetched_at": "2026-10-12T01:17:06+00:00",
+      "entries_sha256": "e0ed59dcc021c3aa6d3b08d1333d22d396e67ea6f8f453df64b7057c67e0edee",
+      "entry_count": 420,
+      "fetched_at": "2026-10-13T01:17:06+00:00",
       "file": "data/minjust_undesirable_orgs.json",
       "freshness_window_days": 30,
-      "source_sha256": "11b3b2bc3e92473d8d52c1e47bd8b05bfd35f37be636a545e1c8da0de34ad9ce",
+      "source_sha256": "9fed86c2bcef0c1af33c77d978b2cb2a6e268b765ae0ac46b1c97f3ccc69f26c",
       "source_url": "https://reestrs.minjust.gov.ru/rest/registry/c2d1692e-a9f6-5a79-13ee-5da5b42980df/export?",
       "status": "ok",
       "title": "Перечень нежелательных организаций"
