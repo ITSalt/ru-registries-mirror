@@ -1,13 +1,13 @@
 {
-  "entries_sha256": "e0ed59dcc021c3aa6d3b08d1333d22d396e67ea6f8f453df64b7057c67e0edee",
-  "entry_count": 420,
-  "fetched_at": "2026-10-13T01:17:06+00:00",
+  "entries_sha256": "86efcc43af07e71a818d14fc50edf4381fe4c78aeebfe896fd5e5134aec650fb",
+  "entry_count": 423,
+  "fetched_at": "2026-10-15T01:17:06+00:00",
   "freshness_window_days": 30,
   "generator": "ITSalt/ru-registries-mirror",
   "registry": "minjust_undesirable_orgs",
   "schema_version": 1,
-  "source_bytes": 46098,
-  "source_sha256": "9fed86c2bcef0c1af33c77d978b2cb2a6e268b765ae0ac46b1c97f3ccc69f26c",
+  "source_bytes": 46338,
+  "source_sha256": "b8e729e7672ab404c8c4e60ee6ce12f45703016817edd7ebb40394c6e83c774f",
   "source_trust": "official",
   "source_url": "https://reestrs.minjust.gov.ru/rest/registry/c2d1692e-a9f6-5a79-13ee-5da5b42980df/export?",
   "title": "Перечень нежелательных организаций",
@@ -431,6 +431,9 @@
     {"aliases": ["Альменда"], "decision": null, "excluded_at": null, "id": "row-417", "included_at": "22.09.2026", "inn": null, "kind": "org", "name": "«Центр гражданского просвещения «Альменда» (Центр громадянської просвіти «Альменда», ЦГП «Альменда»), Украина", "ogrn": null, "raw": {}},
     {"aliases": ["Фонд поддержки этнических немцев за рубежом", "Stiftung Verbundenheit"], "decision": null, "excluded_at": null, "id": "row-418", "included_at": "22.09.2026", "inn": null, "kind": "org", "name": "Stiftung Verbundenheit mit den Deutschen im Ausland («Фонд поддержки этнических немцев за рубежом»), Федеративная Республика Германия", "ogrn": null, "raw": {}},
     {"aliases": ["Центр стратегических коммуникаций", "EK Strategic Communications Center"], "decision": null, "excluded_at": null, "id": "row-419", "included_at": "02.10.2026", "inn": null, "kind": "org", "name": "EK Strategic Communications Center («Центр стратегических коммуникаций»)", "ogrn": null, "raw": {}},
-    {"aliases": ["Волна с Украиной к победе и процветанию", "Фонд А. Волны", "VOLNA WITH UKRAINE TO VICTORY", "AND PROSPERITY"], "decision": null, "excluded_at": null, "id": "row-420", "included_at": "09.10.2026", "inn": null, "kind": "org", "name": "MTÜ VOLNA WITH UKRAINE TO VICTORY AND PROSPERITY («Благотворительный фонд «Волна с Украиной к победе и процветанию», «Фонд А. Волны»), Эстонская Республика", "ogrn": null, "raw": {}}
+    {"aliases": ["Волна с Украиной к победе и процветанию", "Фонд А. Волны", "VOLNA WITH UKRAINE TO VICTORY", "AND PROSPERITY"], "decision": null, "excluded_at": null, "id": "row-420", "included_at": "09.10.2026", "inn": null, "kind": "org", "name": "MTÜ VOLNA WITH UKRAINE TO VICTORY AND PROSPERITY («Благотворительный фонд «Волна с Украиной к победе и процветанию», «Фонд А. Волны»), Эстонская Республика", "ogrn": null, "raw": {}},
+    {"aliases": ["Институт Молдовы в Лейпциге", "Institute Leipzig"], "decision": null, "excluded_at": null, "id": "row-421", "included_at": "14.10.2026", "inn": null, "kind": "org", "name": "Moldova-Institute Leipzig e.V. (MIL, «Институт Молдовы в Лейпциге»), Федеративная Республика Германия", "ogrn": null, "raw": {}},
+    {"aliases": ["Frame", "Фрейм"], "decision": null, "excluded_at": null, "id": "row-422", "included_at": "14.10.2026", "inn": null, "kind": "org", "name": "Frame (FrameYou, Сообщество «Frame», «Фрейм»), Грузия", "ogrn": null, "raw": {}},
+    {"aliases": ["Окно в Россию", "Stichting Raam"], "decision": null, "excluded_at": null, "id": "row-423", "included_at": "14.10.2026", "inn": null, "kind": "org", "name": "Stichting Raam op Rusland (RAAM, «Окно в Россию»), Королевство Нидерландов", "ogrn": null, "raw": {}}
   ]
 }
