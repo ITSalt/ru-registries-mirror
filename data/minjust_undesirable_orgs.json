@@ -1,13 +1,13 @@
 {
-  "entries_sha256": "b13fb3305e97ed65f3bf323a4b9019aca5a4b54dca1fb96ef0693d6fcf6e4664",
-  "entry_count": 424,
-  "fetched_at": "2026-10-29T01:17:06+00:00",
+  "entries_sha256": "c92c015a08348d1a24575bea426201815eaf4c9e43df7de7f19f5194efbc91ac",
+  "entry_count": 435,
+  "fetched_at": "2026-10-31T01:17:08+00:00",
   "freshness_window_days": 30,
   "generator": "ITSalt/ru-registries-mirror",
   "registry": "minjust_undesirable_orgs",
   "schema_version": 1,
-  "source_bytes": 46468,
-  "source_sha256": "123422fcc0244471c0d3d5d025e9e82ea10bab055fea4dee339c86c2b399622d",
+  "source_bytes": 47582,
+  "source_sha256": "3f3ffb6db2d2fc4a7e828d0c72e9103c6d0c5792cb4352e1f63949bb244487e8",
   "source_trust": "official",
   "source_url": "https://reestrs.minjust.gov.ru/rest/registry/c2d1692e-a9f6-5a79-13ee-5da5b42980df/export?",
   "title": "Перечень нежелательных организаций",
@@ -435,6 +435,17 @@
     {"aliases": ["Институт Молдовы в Лейпциге", "Institute Leipzig"], "decision": null, "excluded_at": null, "id": "row-421", "included_at": "14.10.2026", "inn": null, "kind": "org", "name": "Moldova-Institute Leipzig e.V. (MIL, «Институт Молдовы в Лейпциге»), Федеративная Республика Германия", "ogrn": null, "raw": {}},
     {"aliases": ["Frame", "Фрейм"], "decision": null, "excluded_at": null, "id": "row-422", "included_at": "14.10.2026", "inn": null, "kind": "org", "name": "Frame (FrameYou, Сообщество «Frame», «Фрейм»), Грузия", "ogrn": null, "raw": {}},
     {"aliases": ["Окно в Россию", "Stichting Raam"], "decision": null, "excluded_at": null, "id": "row-423", "included_at": "14.10.2026", "inn": null, "kind": "org", "name": "Stichting Raam op Rusland (RAAM, «Окно в Россию»), Королевство Нидерландов", "ogrn": null, "raw": {}},
-    {"aliases": ["Финско-украинская ассоциация национальной обороны", "Ukraina Maanpuolustusyhdistys"], "decision": null, "excluded_at": null, "id": "row-424", "included_at": "26.10.2026", "inn": null, "kind": "org", "name": "Suomi-Ukraina Maanpuolustusyhdistys (SUMPY, SUM, «Финско-украинская ассоциация национальной обороны»), Финляндская Республика", "ogrn": null, "raw": {}}
+    {"aliases": ["Финско-украинская ассоциация национальной обороны", "Ukraina Maanpuolustusyhdistys"], "decision": null, "excluded_at": null, "id": "row-424", "included_at": "26.10.2026", "inn": null, "kind": "org", "name": "Suomi-Ukraina Maanpuolustusyhdistys (SUMPY, SUM, «Финско-украинская ассоциация национальной обороны»), Финляндская Республика", "ogrn": null, "raw": {}},
+    {"aliases": ["Федерация семей за объединение и мир во всем мире", "Федерация семей за единство и мир во всем мире", "Family Federation", "World Peace"], "decision": null, "excluded_at": null, "id": "row-425", "included_at": "26.10.2026", "inn": null, "kind": "org", "name": "Family Federation for World Peace and Unification (FFWPU, «Федерация семей за объединение и мир во всем мире», «Федерация семей за единство и мир во всем мире»), Республика Корея", "ogrn": null, "raw": {}},
+    {"aliases": ["Федерация за всеобщий мир", "Universal Peace Federation"], "decision": null, "excluded_at": null, "id": "row-426", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Universal Peace Federation («Федерация за всеобщий мир»), Соединенные Штаты Америки", "ogrn": null, "raw": {}},
+    {"aliases": ["Федерация женщин за мир во всем мире", "World Peace"], "decision": null, "excluded_at": null, "id": "row-427", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Women´s Federation for World Peace («Федерация женщин за мир во всем мире»), Соединенные Штаты Америки", "ogrn": null, "raw": {}},
+    {"aliases": ["Институт исследования проблем мира и политики безопасности при Гамбургском университете"], "decision": null, "excluded_at": null, "id": "row-428", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Institut für Friedensforschung und Sicherheitspolitik an der Universität Hamburg («Институт исследования проблем мира и политики безопасности при Гамбургском университете», IFSH), Федеративная Республика Германия", "ogrn": null, "raw": {}},
+    {"aliases": ["Объединенная помощь Украине", "United Help Ukraine"], "decision": null, "excluded_at": null, "id": "row-429", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "United Help Ukraine («Объединенная помощь Украине»), Соединенные Штаты Америки", "ogrn": null, "raw": {}},
+    {"aliases": ["Антивоенная пасторская инициатива"], "decision": null, "excluded_at": null, "id": "row-430", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Anti-war pastoral Initiative («Антивоенная пасторская инициатива»), Эстонская Республика", "ogrn": null, "raw": {}},
+    {"aliases": ["Vidim Books"], "decision": null, "excluded_at": null, "id": "row-431", "included_at": "29.10.2026", "inn": null, "kind": "person", "name": "Vidim Books, Словацкая Республика", "ogrn": null, "raw": {}},
+    {"aliases": ["Тбилисский ингушский культурный центр", "Ingushian Culture Center"], "decision": null, "excluded_at": null, "id": "row-432", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Ingushian Culture Center of Tbilisi (ICCT, «Тбилисский ингушский культурный центр», ТИКЦ), Грузия", "ogrn": null, "raw": {}},
+    {"aliases": ["CIЧ", "SICH", "Сечь", "Human Rights Protection Group"], "decision": null, "excluded_at": null, "id": "row-433", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Громадська органiзацiя «Правозахисна Група «CIЧ» (ГО «ПГ «CIЧ», «Human Rights Protection Group «SICH», «HRPG «SICH», «Правозащитная Группа «Сечь»), Украина", "ogrn": null, "raw": {}},
+    {"aliases": ["Общество Сенатской площади", "Senate Square Society"], "decision": null, "excluded_at": null, "id": "row-434", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Senate Square Society («Общество Сенатской площади»), Соединенные Штаты Америки", "ogrn": null, "raw": {}},
+    {"aliases": ["Платформа для диалога с российскими демократическими силами", "Russian Democratic Forces"], "decision": null, "excluded_at": null, "id": "row-435", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Platform for Dialogue with Russian Democratic Forces (RDF, «Платформа для диалога с российскими демократическими силами», РДС), Франция", "ogrn": null, "raw": {}}
   ]
 }
