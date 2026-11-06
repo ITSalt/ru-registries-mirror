@@ -1,13 +1,13 @@
 {
-  "entries_sha256": "c92c015a08348d1a24575bea426201815eaf4c9e43df7de7f19f5194efbc91ac",
-  "entry_count": 435,
-  "fetched_at": "2026-10-31T01:17:08+00:00",
+  "entries_sha256": "490f717a25a96724a26c9a5193c300698473c20c4a274da0623f5ff66a27ea76",
+  "entry_count": 439,
+  "fetched_at": "2026-11-06T01:17:06+00:00",
   "freshness_window_days": 30,
   "generator": "ITSalt/ru-registries-mirror",
   "registry": "minjust_undesirable_orgs",
   "schema_version": 1,
-  "source_bytes": 47582,
-  "source_sha256": "3f3ffb6db2d2fc4a7e828d0c72e9103c6d0c5792cb4352e1f63949bb244487e8",
+  "source_bytes": 47802,
+  "source_sha256": "e00cb068c946bb8b71fd24adcf19fe9f740e3998b1452ac0392f19c0b11c1660",
   "source_trust": "official",
   "source_url": "https://reestrs.minjust.gov.ru/rest/registry/c2d1692e-a9f6-5a79-13ee-5da5b42980df/export?",
   "title": "Перечень нежелательных организаций",
@@ -446,6 +446,10 @@
     {"aliases": ["Тбилисский ингушский культурный центр", "Ingushian Culture Center"], "decision": null, "excluded_at": null, "id": "row-432", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Ingushian Culture Center of Tbilisi (ICCT, «Тбилисский ингушский культурный центр», ТИКЦ), Грузия", "ogrn": null, "raw": {}},
     {"aliases": ["CIЧ", "SICH", "Сечь", "Human Rights Protection Group"], "decision": null, "excluded_at": null, "id": "row-433", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Громадська органiзацiя «Правозахисна Група «CIЧ» (ГО «ПГ «CIЧ», «Human Rights Protection Group «SICH», «HRPG «SICH», «Правозащитная Группа «Сечь»), Украина", "ogrn": null, "raw": {}},
     {"aliases": ["Общество Сенатской площади", "Senate Square Society"], "decision": null, "excluded_at": null, "id": "row-434", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Senate Square Society («Общество Сенатской площади»), Соединенные Штаты Америки", "ogrn": null, "raw": {}},
-    {"aliases": ["Платформа для диалога с российскими демократическими силами", "Russian Democratic Forces"], "decision": null, "excluded_at": null, "id": "row-435", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Platform for Dialogue with Russian Democratic Forces (RDF, «Платформа для диалога с российскими демократическими силами», РДС), Франция", "ogrn": null, "raw": {}}
+    {"aliases": ["Платформа для диалога с российскими демократическими силами", "Russian Democratic Forces"], "decision": null, "excluded_at": null, "id": "row-435", "included_at": "29.10.2026", "inn": null, "kind": "org", "name": "Platform for Dialogue with Russian Democratic Forces (RDF, «Платформа для диалога с российскими демократическими силами», РДС), Франция", "ogrn": null, "raw": {}},
+    {"aliases": ["Reforum Space Tallin"], "decision": null, "excluded_at": null, "id": "row-436", "included_at": "05.11.2026", "inn": null, "kind": "org", "name": "Reforum Space Tallin, Эстонская Республика", "ogrn": null, "raw": {}},
+    {"aliases": ["Reforum Space Tbilisi"], "decision": null, "excluded_at": null, "id": "row-437", "included_at": "05.11.2026", "inn": null, "kind": "person", "name": "Reforum Space Tbilisi, Грузия", "ogrn": null, "raw": {}},
+    {"aliases": ["Reforum Space Vilnius"], "decision": null, "excluded_at": null, "id": "row-438", "included_at": "05.11.2026", "inn": null, "kind": "org", "name": "Reforum Space Vilnius, Литовская Республика", "ogrn": null, "raw": {}},
+    {"aliases": ["Reforum Space Berlin"], "decision": null, "excluded_at": null, "id": "row-439", "included_at": "05.11.2026", "inn": null, "kind": "person", "name": "Reforum Space Berlin, ФРГ", "ogrn": null, "raw": {}}
   ]
 }
