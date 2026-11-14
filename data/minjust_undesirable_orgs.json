@@ -1,13 +1,13 @@
 {
-  "entries_sha256": "490f717a25a96724a26c9a5193c300698473c20c4a274da0623f5ff66a27ea76",
-  "entry_count": 439,
-  "fetched_at": "2026-11-06T01:17:06+00:00",
+  "entries_sha256": "ecb6f84d11bd22da4b179cb937a100c6226cdd0b62b4f586593f1198eb2be1e5",
+  "entry_count": 441,
+  "fetched_at": "2026-11-14T01:17:14+00:00",
   "freshness_window_days": 30,
   "generator": "ITSalt/ru-registries-mirror",
   "registry": "minjust_undesirable_orgs",
   "schema_version": 1,
-  "source_bytes": 47802,
-  "source_sha256": "e00cb068c946bb8b71fd24adcf19fe9f740e3998b1452ac0392f19c0b11c1660",
+  "source_bytes": 48000,
+  "source_sha256": "af74a9b516ca4f2554f2eec4684082f83277d869cdbc71d977226b125a51636f",
   "source_trust": "official",
   "source_url": "https://reestrs.minjust.gov.ru/rest/registry/c2d1692e-a9f6-5a79-13ee-5da5b42980df/export?",
   "title": "Перечень нежелательных организаций",
@@ -450,6 +450,8 @@
     {"aliases": ["Reforum Space Tallin"], "decision": null, "excluded_at": null, "id": "row-436", "included_at": "05.11.2026", "inn": null, "kind": "org", "name": "Reforum Space Tallin, Эстонская Республика", "ogrn": null, "raw": {}},
     {"aliases": ["Reforum Space Tbilisi"], "decision": null, "excluded_at": null, "id": "row-437", "included_at": "05.11.2026", "inn": null, "kind": "person", "name": "Reforum Space Tbilisi, Грузия", "ogrn": null, "raw": {}},
     {"aliases": ["Reforum Space Vilnius"], "decision": null, "excluded_at": null, "id": "row-438", "included_at": "05.11.2026", "inn": null, "kind": "org", "name": "Reforum Space Vilnius, Литовская Республика", "ogrn": null, "raw": {}},
-    {"aliases": ["Reforum Space Berlin"], "decision": null, "excluded_at": null, "id": "row-439", "included_at": "05.11.2026", "inn": null, "kind": "person", "name": "Reforum Space Berlin, ФРГ", "ogrn": null, "raw": {}}
+    {"aliases": ["Reforum Space Berlin"], "decision": null, "excluded_at": null, "id": "row-439", "included_at": "05.11.2026", "inn": null, "kind": "person", "name": "Reforum Space Berlin, ФРГ", "ogrn": null, "raw": {}},
+    {"aliases": ["Дроа!", "Время пришло!", "Пора!"], "decision": null, "excluded_at": null, "id": "row-440", "included_at": "13.11.2026", "inn": null, "kind": "org", "name": "Droa! (დროა!, «Дроа!», «Время пришло!», «Пора!»), Грузия", "ogrn": null, "raw": {}},
+    {"aliases": ["Фонд Чарльза Кеттеринга", "Charles F. Kettering Foundation"], "decision": null, "excluded_at": null, "id": "row-441", "included_at": "13.11.2026", "inn": null, "kind": "org", "name": "Charles F. Kettering Foundation («Фонд Чарльза Кеттеринга»), Соединенные Штаты Америки", "ogrn": null, "raw": {}}
   ]
 }
