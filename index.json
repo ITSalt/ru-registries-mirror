@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-26T01:17:03+00:00",
+  "generated_at": "2026-11-27T01:17:03+00:00",
   "generator": "ITSalt/ru-registries-mirror",
   "registries": {
     "fsb_terrorist_orgs": {
       "entries_sha256": "5301bd4d4b89fe4f966b90bd1956a04e8efbe5e4e0c5b8c16a3f625cadf28300",
       "entry_count": 78,
-      "fetched_at": "2026-11-26T01:17:08+00:00",
+      "fetched_at": "2026-11-27T01:17:05+00:00",
       "file": "data/fsb_terrorist_orgs.json",
       "freshness_window_days": 45,
       "source_sha256": "081bf4fd6fcf2f23f7300312da46b611ea1ac99e2e1fa1115993fc64895a158b",
@@ -16,14 +16,12 @@
     "minjust_extremist_materials": {
       "entries_sha256": "9f84ec89ceea40e44960e91e6c36a420d984ab7776968ea889e99421d4ffe8f6",
       "entry_count": 5492,
-      "fetched_at": "2026-11-24T01:17:04+00:00",
+      "fetched_at": "2026-11-27T01:17:04+00:00",
       "file": "data/minjust_extremist_materials.json",
       "freshness_window_days": 30,
-      "last_attempt_at": "2026-11-26T01:17:03+00:00",
-      "last_error": "https://minjust.gov.ru/uploaded/files/exportfsm.csv: RemoteDisconnected: Remote end closed connection without response",
       "source_sha256": "ed02f81da7fca90d0957d34f2f3bd6f3515ebb36ddd2838f4d40947e793d2909",
       "source_url": "https://minjust.gov.ru/uploaded/files/exportfsm.csv",
-      "status": "failed",
+      "status": "ok",
       "title": "Федеральный список экстремистских материалов"
     },
     "minjust_extremist_orgs": {
@@ -32,7 +30,7 @@
       "fetched_at": "2026-11-24T01:17:05+00:00",
       "file": "data/minjust_extremist_orgs.json",
       "freshness_window_days": 45,
-      "last_attempt_at": "2026-11-26T01:17:03+00:00",
+      "last_attempt_at": "2026-11-27T01:17:03+00:00",
       "last_error": "https://minjust.gov.ru/ru/documents/7822/: HTTPError: HTTP Error 404: NOT FOUND",
       "source_sha256": "78f609c08b38c65f18481168eff0da08d7db1cbdfe4e26dbbf08a1dae719914f",
       "source_url": "https://minjust.gov.ru/ru/documents/7822/",
@@ -42,10 +40,10 @@
     "minjust_foreign_agents": {
       "entries_sha256": "3e2b4d866b12acfd0067782ca31e79dbce1d8fa0531af9f320b8fd49dc003206",
       "entry_count": 1304,
-      "fetched_at": "2026-11-26T01:17:09+00:00",
+      "fetched_at": "2026-11-27T01:17:06+00:00",
       "file": "data/minjust_foreign_agents.json",
       "freshness_window_days": 10,
-      "source_sha256": "734db97ed08b4c6215bfd146714b2b415d19e210a776f73239786fdd4c968ea5",
+      "source_sha256": "80e4a90d308d80c55f014a21384deacc5018989499451665d92079ffafd07289",
       "source_url": "https://reestrs.minjust.gov.ru/rest/registry/39b95df9-9a68-6b6d-e1e3-e6388507067e/export?",
       "status": "ok",
       "title": "Реестр иностранных агентов"
@@ -53,10 +51,10 @@
     "minjust_undesirable_orgs": {
       "entries_sha256": "6b63d574f909d62bb598fb28ea91e2219815de051e17f22f92d226be149925f2",
       "entry_count": 442,
-      "fetched_at": "2026-11-26T01:17:09+00:00",
+      "fetched_at": "2026-11-27T01:17:06+00:00",
       "file": "data/minjust_undesirable_orgs.json",
       "freshness_window_days": 30,
-      "source_sha256": "9257783f41022fffdb11939339c9897e24f1aefe263fed3766d57c4343c5ccbd",
+      "source_sha256": "2f9ac39248ff41b448b4e31d8e27dbeb8e4bbc6e837fe105a0f6af0a8fdf00d9",
       "source_url": "https://reestrs.minjust.gov.ru/rest/registry/c2d1692e-a9f6-5a79-13ee-5da5b42980df/export?",
       "status": "ok",
       "title": "Перечень нежелательных организаций"
